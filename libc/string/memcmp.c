@@ -3,7 +3,6 @@
 
 int memcmp(const void *ptr1, const void *ptr2, size_t size)
 {
-        /* convert ptrs to byte ptrs for array indexing*/
         const unsigned char *one = (const unsigned char*) ptr1;
         const unsigned char *two = (const unsigned char*) ptr2;
 
