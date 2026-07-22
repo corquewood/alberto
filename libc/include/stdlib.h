@@ -1,0 +1,12 @@
+#ifndef _STDLIB_H
+#define _STDLIB_H
+
+
+#include <sys/cdefs.h>
+
+
+__attribute((__noreturn__))
+void abort(void)
+
+
+#endif
